@@ -1,0 +1,728 @@
+.team-slider-content h4{
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1em;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.team-slider-content {
+    max-height: 55px;
+    overflow: hidden;
+}
+.team-slider-content p{
+    font-family: "Titillium Web", Sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 18px;
+    margin: 0;
+}
+.team-slider-content{
+    position: absolute;
+    bottom: 20px;
+    padding-left: 30px;
+}
+.team-slider-box {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-position-x: left;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.teams-btn-wrap {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    left: -160px;
+}
+.teams-btn-wrap div{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+.team-hover-text ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: -40px;
+    align-items: center;
+}
+.team-hover-text ul img{
+     width: 80%;   
+}
+.team-hover-text ul li{
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    font-size: 13px;
+    line-height: 1.2em;
+}
+.service-box.slick-slide{
+    width: 100%;
+    height: 380px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.service-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.service-content{
+    position: absolute;
+    bottom: -82%;
+    color: #fff;
+    font-family: "Titillium Web", Sans-serif;
+    padding: 20px;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition: 0.6s all ease-in-out;
+    z-index: 7;
+}
+.service-content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 0px -6px 24px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -6px 24px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -6px 24px -1px rgba(0,0,0,0.75);
+    z-index: -1;
+}
+.service-box:hover .service-content{
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-top: 100px;
+}
+.service-box:hover h4 {
+    color: #0b74b8;
+}
+.service-content a:hover{
+    color: #fff;
+}
+.service-content a{
+    background-color: #0B74B8;
+    font-family: "Titillium Web", Sans-serif;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.service-content .desc {
+    margin-bottom: 30px;
+    color: #868D9A;
+    font-size: 15px;
+}
+.service-btn-wrap {
+    display: flex;
+}
+.service-btn-wrap div{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+.team-member {margin-right: 60px;margin-left: -40px;}
+.team-slider-box{position: relative;overflow: hidden;}
+.team-by-default,.team-hover-text{transition: 0.6s ease-in-out;}
+.team-slider-box:hover .team-by-default{
+    transform: translateY(-55px)
+}
+.team-slider-box:hover .team-hover-text{
+    transform: translateY(-40px)
+}
+.team-slider-overlay{
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    pointer-events: none;
+    transition: 0.6s ease-in-out;
+    opacity: 0.6;
+}
+.team-slider-box:hover .team-slider-overlay{
+    bottom: 0;
+}
+.testimonial-content {
+    border-radius: 30px 30px 30px 0px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    padding: 30px 40px;
+    background-color: #fff;
+    margin: 20px 15px;
+}
+.testimonial-bottom h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.testimonial-bottom span {
+    color: #868D9A;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.testimonial-bottom{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.testimonial-msg {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #868D9A;
+}
+.testimonial-btn-wrap{
+    display: flex;
+    margin-top: 20px;
+}
+.testimonial-btn-wrap div{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+.testimonial-content:after {
+    border-right: 30px solid #ffffff;
+    border-bottom: 30px solid transparent;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -25px;
+    left: 0px;
+    rotate: 270deg;
+    border-top-left-radius: 15px;
+}
+.news-content {
+    font-family: "Titillium Web", Sans-serif;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    padding: 30px 30px;
+    background-color: #fff;
+    margin: 10px;
+    height: 240px;
+    margin-right: 65px;
+    margin-left: -30px;
+}
+.news-content h4 {
+    color: #11161C;
+    font-size: 20px;
+}
+.news-pub {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.news-pub span.news-publisher{
+    color: #3A87D2;
+    font-weight: bold;
+    font-size: 13px;
+}
+.news-pub span.news-date{
+    color: #78818B;
+    font-weight: 500;
+    font-size: 13px;
+}
+.news-pub span{
+    display: block;
+}
+.news-bottom a {
+    color: #78818B;
+    font-size: 14px;
+}
+.news-bottom img {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+.news-bottom a span {
+    float: left;
+}
+.news-bottom {
+    margin-bottom: 40px;
+}
+.news-btn-wrap {
+    display: flex;
+    position: absolute;
+    bottom: -70px;
+    z-index: 2;
+    left: 0;
+}
+.news-btn-wrap div {
+    cursor: pointer;
+    padding: 0px 10px;
+}
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Titillium Web", Sans-serif;
+}
+.team-grid .team-grid-member{
+    flex: 0 0 33.33%; /* 3 columns per row */
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+.team-grid-member h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #11161C;
+    margin-bottom: 0px;
+}
+.team-grid-member span{
+    color: #78818B;
+    font-size: 18px;
+}
+.team-grid-member img.team-img{
+    border-radius: 100% !important;
+    width: 250px !important;
+    height: 250px !important;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-58%);
+}
+img.team-forhead {
+    border-radius: 100% !important;
+    width: 420px !important;
+    height: 420px !important;
+    object-fit: cover;
+}
+#preloader img {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-58%);
+    z-index: 2;
+}
+.news-grid-content{
+    border-bottom: 1px solid #7070704a;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.news-grid-content img.news-img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 40px 0px;
+    margin-bottom: 20px;
+}
+.news-grid-content h4{
+    font-family: "Titillium Web", Sans-serif !important;
+    font-weight: 600;
+    font-size: 26px;
+    color: #000;
+}
+.news-grid-content .news-desc {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.news-content-left {
+    width: 90%;
+    float: left;
+}
+.news-content-share {
+    width: 10%;
+    float: right;
+}
+/* Social Share Icon Start */
+.social-share{
+    display: flex;
+    flex-direction: column;
+}
+  
+.btn-social {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: #0B74B8;
+    cursor: pointer;
+    position: relative;
+  }
+  .btn-social .fa-share-alt {
+    margin-right: 2px;
+  }
+  .btn-social > i:hover {
+    color: #405de6;
+  }
+  .btn-social:active:not(:focus-within) {
+    box-shadow: -2px 2px 8px rgba(0, 0, 0, 0.2) inset;
+  }
+  .btn-social:active:not(:focus-within) > i {
+    transform: translate(0.8px, 0.8px);
+  }
+  .social {
+    box-shadow: 4px 2px 10px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: -45px;
+    display: none;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50px;
+    z-index: 9;
+  }
+  .toggle input[type="checkbox"]:checked + .btn-social .social {
+    animation: fadeIn 1s;
+    display: flex;
+  }
+  .toggle input[type="checkbox"]:not(:checked) + .btn-social .social {
+    animation: fadeOut 1s;
+  }
+  
+  .toggle input[type="checkbox"]:checked + .btn-social .fa-share-alt {
+    display: none;
+  }
+  .toggle input[type="checkbox"]:not(:checked) + .btn-social .fa-times {
+    display: none;
+  }
+  .social a {
+    margin: 0 10px;
+    font-size: 22px;
+    color: #999;
+  }
+  
+  .toggle input[type="checkbox"] {
+    display: none;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+/* End */
+.news-grid-pagination a.page-numbers.active, .news-grid-pagination a.page-numbers:hover{
+    background-color: #F68920;
+    color: #fff;
+    border-color: #F68920;
+}
+.news-grid-pagination a.page-numbers{
+    font-family: "Titillium Web", Sans-serif;
+    font-size: 16px;
+    color: #868D9A;
+    border: 2px solid #868D9A;
+    border-radius: 100%;
+    padding: 8px 16px;
+    margin: 0 5px;
+}
+.news-recent-post{
+    font-family: "Titillium Web", Sans-serif;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.1));
+    padding: 30px 30px;
+    background-color: #fff;
+    margin: 10px 10px 30px;
+}
+.news-recent-post h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.career-content-inside ul {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr auto; /* Define 5 columns with specific sizes */
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.career-content-inside h4 {
+    margin: 0;
+}
+.career-content-inside span {
+    margin-right: 10px;
+    display: block;
+}
+.career-content-inside a {
+    margin-right: 10px;
+}
+.career-content-inside a i {
+    margin-left: 5px;
+}
+.career-content-inside{
+    font-family: "Titillium Web", Sans-serif;
+    border: 1px solid #E5EAF4;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 8%);
+    -webkit-box-shadow: 0px 0px 8px 2px rgb(0 0 0 / 8%);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.5);
+}
+.career-content-inside h4{
+    font-size: 18px;
+    color: #0B74B8;
+    font-weight: 600;
+}
+.career-content-inside span.job-location{
+    color: #11161C;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+.career-content-inside span.flexibility{
+    color: #F68920;
+    font-size: 15px !important;
+}
+.career-content-inside a.job-apply {
+    background-color: #0B74B8;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 100px;
+}
+
+.career-content-inside i.fas.fa-chevron-right{
+    color: #0B74B8;
+}
+form#search-careers-form {
+    display: flex;
+    gap: 15px;
+    width: 50%;
+    float: right;
+    justify-content: flex-end;
+}
+div#careers-results {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+form#search-careers-form button {
+    background-color: #0B74B8;
+    color: #fff;
+    border-color: #0B74B8;
+    border-radius: 10px;
+}
+form#search-careers-form input[type=text] {
+    color: #868D9A;
+    border-color: #E5EAF4;
+    font-family: "Titillium Web", sans-serif;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+form#search-careers-form input[type=text]::-ms-input-placeholder{
+  color: #868D9A;
+}
+
+form#search-careers-form input[type=text]::placeholder {
+  color: #868D9A;
+}
+select#job-location {
+  color: #868D9A;
+  border-color: #E5EAF4;
+  font-family: "Titillium Web", sans-serif;
+  border-radius: 10px;
+}
+select#job-location:focus-visible {
+    outline: none;
+}
+.position-field {
+    display: flex;
+    align-items: center;
+}
+.position-field i {
+    position: absolute;
+    margin-left: 10px;
+    color: #868D9A;
+    font-size: 13px;
+}
+.post-not-found {
+    background-color: #0b74b8;
+    color: #fff;
+    text-align: center;
+    padding: 12px 10px;
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    border-radius: 8px;
+}
+@media(max-width:1140px){
+    .team-grid-member img.team-img{
+        width: 200px !important;
+        height: 200px !important;
+    }
+    img.team-forhead {
+        width: 340px !important;
+        height: 340px !important;
+    }
+}
+@media(max-width:990px){
+    .team-grid .team-grid-member {
+        flex: 0 0 50%;
+    }
+}
+@media(max-width:1499px){
+    .news-content h4{
+        font-size: 18px;
+    }
+}
+@media(max-width:1100px){
+    .news-content{
+        padding: 20px;
+    }
+}
+@media(max-width: 1640px){
+    .teams-btn-wrap {
+        left: 0px;
+        bottom: -80px;
+    }
+}
+@media (max-width:768px){
+    .career-content-inside i.fas.fa-chevron-right{
+        margin-top: 20px;
+    }
+    .career-content-inside{
+        padding: 20px 15px;
+        overflow: hidden;
+    }
+    .career-content-inside a.job-apply{
+        padding: 10px 15px; 
+    }
+    form#search-careers-form{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .career-content-inside ul{
+        grid-template-columns: 2fr 1fr 1fr auto;
+    }
+    .team-slider-box {
+        background-size:cover !important;
+    }
+    .service-box:hover .service-content{
+        padding: 30px;
+    }
+    .news-content{
+        height: 250px;
+    }
+    .teams-btn-wrap {
+        left: 0;
+        bottom: -80px;
+    }
+}
+@media (max-width:600px){
+    li.career-location {
+    width: 50%;
+    float: left;
+}
+    li.career-apply {
+        width: 40%;
+        float: left;
+        margin-top: 10px;
+    }
+    li.career-readmore {
+        width: 10%;
+        float: right;
+    }
+    .career-content-inside a.job-apply {
+        font-size: 12px;
+    }
+    .career-content-inside h4{
+        line-height: 1em;
+    }
+    .career-content-inside span.flexibility{
+        margin-bottom: 15px;
+    }
+    .career-content-inside ul{
+        display: block;
+    }
+    form#search-careers-form{
+        display: block;
+    }
+    div#careers-results{
+        margin-top: 10px;
+    }
+    form#search-careers-form div{
+        margin-bottom: 20px;
+    }
+    .team-grid-member h4{
+        font-size: 22px;
+    }
+    .team-grid-member span{
+        font-size: 16px;
+    }
+    .team-grid .team-grid-member {
+        flex: 0 0 100%;
+        padding: 10px;
+    }
+    .news-content{
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 250px;
+    }
+    .team-member{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .team-slider-content{
+        max-height: 50px;
+    }
+    .team-slider-content h4{
+        font-size: 18px;
+    }
+    .news-content h4{
+        font-size: 18px;
+    }
+    .team-slider-content p{
+        font-size: 12px;
+    }
+    .news-btn-wrap {
+        left: 0;
+        bottom: -70px;
+    }
+    .news-content-left, .news-content-share {
+        width: 100%;
+    }
+    .news-content-share {
+        position: relative;
+    }
+    .news-content-share .toggle{
+        position: absolute;
+        bottom: 10px;
+        right: 0px;
+    }
+    .social{
+        left: -100px;
+        bottom: 0px;
+    }
+    .social a{
+        font-size: 18px;
+    }
+    .news-grid-content img.news-img{
+        height: 300px;
+    }
+}
